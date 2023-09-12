@@ -30,11 +30,16 @@ export default function ProjectCard(props) {
                         }
 
                         {
-                            props.tailwind && <span className="badge badge-pink">TailwindCSS</span>
+                            props.tailwind && <span className="badge badge-pink">tailwindCSS</span>
+
+                        }
+
+                        {
+                            props.flowbite && <span className="badge badge-yellow">Flowbite</span>
 
                         }
                         {
-                            props.mongodb && <span className="badge badge-gray">mongoDB</span>
+                            props.mongodb && <span className="badge badge-gray">MongoDB Atlas</span>
 
                         }
                         {
@@ -46,11 +51,11 @@ export default function ProjectCard(props) {
 
                         }
                         {
-                            props.cplusplus && <span className="badge badge-blue">C++</span>
+                            props.cplusplus && <span className="badge badge-blue">C++ 18</span>
 
                         }
                         {
-                            props.qt && <span className="badge badge-lime">Qt 5</span>
+                            props.qt && <span className="badge badge-lime">Qt5</span>
 
                         }
                         {

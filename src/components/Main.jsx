@@ -17,6 +17,7 @@ export default function Main() {
                 appLink={item.appLink}
                 react={item.useReact}
                 css={item.useCss}
+                flowbite={item.useFlowbite}
                 firebase={item.useFirebase}
                 tailwind={item.useTailwind}
                 mongodb={item.useMongoDB}
