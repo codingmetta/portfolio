@@ -17,7 +17,7 @@ export default [
         useSQL: false,
         useBootstrap: false,
         useWordpress: false,
-        mockImg: "images/tenzies-scr.png",
+        mockImg: "images/scr-tenzi.png",
         githubExists: true,
         githubLink: "https://github.com/codingmetta/react-kids-game",
         applinkExists: true,
