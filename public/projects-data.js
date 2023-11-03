@@ -2,6 +2,31 @@ export default [
     
     {
         id: 0,
+        title: "Color Scheme Component",
+        desc: "React Component die für eine gewählte Farbe ein passendes Schema on the fly generiert. Hexcodes können mit nur einem Klick in die Zwischenablage kopiert werden. Verwendet The Color API.",
+        useReact: true,
+        useCss: true,
+        useFirebase: false,
+        useFlowbite: false,
+        useTailwind: true,
+        useMongoDB: false,
+        useExpress: false,
+        useJS: true,
+        useC: false,
+        useQt: false,
+        useHTML: true,
+        usePHP: false,
+        useSQL: false,
+        useBootstrap: false,
+        useWordpress: false,
+        mockImg: "images/scr-colorScheme.png",
+        githubExists: true,
+        githubLink: "https://github.com/codingmetta/colorScheme-firebase",
+        applinkExists: true,
+        appLink: "https://colorscheme-a69c7.web.app",
+    },    
+    {
+        id: 1,
         title: "AirBnb Klon (in Progress)",
         desc: "Fullstack Booking App Clone nach marktführenden Vorbild ",
         useReact: true,
@@ -25,7 +50,7 @@ export default [
         applinkExists: false,
         appLink: "",
     },{
-        id: 1,
+        id: 2,
         title: "TENZI",
         desc: "Responsives Web-App Spiel für Kinder ab 3 Jahren",
         useReact: true,
@@ -50,7 +75,7 @@ export default [
         appLink: "https://tenzies-responsive.web.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "[ku:] Queere Entfaltung e. V.",
         desc: "Responsive Webpräsenz mit DSGVO-konformer Integration von oEmbed, Google Maps und PayPal im Auftrag eines gemeinnützigen Vereins",
         useReact: false,
@@ -75,7 +100,7 @@ export default [
         appLink: "https://ku-koeln.de/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Notizen App",
         desc: "Responsive Notizen App die das Erstellen, Editieren, Löschen und Formattieren von Notizen ermöglicht ",
         useReact: true,
@@ -99,7 +124,7 @@ export default [
     }
     ,
     {
-        id: 4,
+        id: 5,
         title: "Plenty Planty",
         desc: "Webshop mit asynchroner Client/Server-Architektur, Authentifikations-, User-, Waren- und Bestellmanagement",
         useReact: false,
@@ -123,7 +148,7 @@ export default [
     }
     ,
     {
-        id: 5,
+        id: 6,
         title: "Solar System",
         desc: "Leichtgewichtige Web 3D-Animation des Sonnensystems mit Babylon.js und Hand.js",
         useReact: false,
@@ -148,7 +173,7 @@ export default [
 
     },
     {
-        id: 6,
+        id: 7,
         title: "Anwendung zur Benotung von Studierenden",
         desc: "Multithreaded Cross-Platform App für eingebettete Systeme zur Organsisation der Notenvergabe von Studierenden mit asynchroner Netzwerkkommunikation",
         useReact: false,

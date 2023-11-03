@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function DemoBtn(props) {
     return (
         <button type="button" className="projectcard-btn demo-btn">

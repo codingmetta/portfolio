@@ -1,11 +1,13 @@
+/* eslint-disable react/prop-types */
 import GithubBtn from "./projectcard/GithubBtn.jsx";
 import DemoBtn from "./projectcard/DemoBtn.jsx";
 
 export default function ProjectCard(props) {
+    
     return (
         <article className="project-card-layout">
             <figure className="project-pic-layout">
-                <img className="project-pic" src={props.img} alt="Example Picture of Project" />
+                <img className="project-pic" src={props.img} alt="" />
             </figure>
 
             <section className="project-info">

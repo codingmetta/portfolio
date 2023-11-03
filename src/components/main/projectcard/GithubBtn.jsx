@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 export default function GithubBtn(props) {
     return (
         <button type="button" className="projectcard-btn github-btn">
-            <a href={props.link} className="flex flex-row md:flex-nowrap items-center">
+            <a href={props.link} className="flex flex-row items-center md:flex-nowrap">
                 <svg
                     className="github-btn-logo"
                     aria-hidden="true"

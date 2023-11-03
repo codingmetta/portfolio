@@ -8,6 +8,7 @@ export default function Main() {
         return (
             <ProjectCard
                 key={item.id}
+                item = {item}
                 title={item.title}
                 desc={item.desc}
                 img={item.mockImg}
