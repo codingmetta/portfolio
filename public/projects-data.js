@@ -175,7 +175,7 @@ export default [
     {
         id: 7,
         title: "Anwendung zur Benotung von Studierenden",
-        desc: "Multithreaded Cross-Platform App für eingebettete Systeme zur Organsisation der Notenvergabe von Studierenden mit asynchroner Netzwerkkommunikation",
+        desc: "Multithreaded Cross-Platform App zur Organisation der Notenvergabe an Studierende",
         useReact: false,
         useCss: false,
         useFirebase: false,

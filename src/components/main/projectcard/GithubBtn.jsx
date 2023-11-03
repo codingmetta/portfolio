@@ -2,7 +2,7 @@
 export default function GithubBtn(props) {
     return (
         <button type="button" className="projectcard-btn github-btn">
-            <a href={props.link} className="flex flex-row items-center md:flex-nowrap">
+            <a href={props.link} target="_blank" className="flex flex-row items-center md:flex-nowrap" rel="noreferrer">
                 <svg
                     className="github-btn-logo"
                     aria-hidden="true"
